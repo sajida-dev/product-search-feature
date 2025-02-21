@@ -1,5 +1,5 @@
 <?php
-$products = json_decode(file_get_contents('https://fakestoreapi.com/products'), true);
+$products = json_decode(file_get_contents('file.json'), true);
 $productTitles = [
     'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops',
     'Mens Casual Premium Slim Fit T-Shirts',
